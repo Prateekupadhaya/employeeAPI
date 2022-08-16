@@ -1,0 +1,20 @@
+service: billeasy
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  # hello:
+  #   handler: handler.hello
+  #   events:
+  #     - httpApi:
+  #         path: /
+  #         method: get
+  employee:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /handler.employee
+          method: any

@@ -1,0 +1,1 @@
+export { default as employee } from './modules/employees';

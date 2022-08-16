@@ -1,0 +1,15 @@
+# package directories
+node_modules
+mock
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Ignore this file
+config.js
+
+local.sh
+.history
+.webpack
+.DS_Store
