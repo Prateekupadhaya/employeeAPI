@@ -13,6 +13,7 @@
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "middy": "^0.36.0",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "serverless-offline": "^9.2.1"
   }
 }

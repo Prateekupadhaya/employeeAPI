@@ -13,8 +13,10 @@ functions:
   #         path: /
   #         method: get
   employee:
-    handler: handler.hello
+    handler: app/modules/employees.employee
     events:
       - httpApi:
-          path: /handler.employee
+          path: /employee
           method: any
+plugins:
+  - serverless-offline
