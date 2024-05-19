@@ -55,7 +55,6 @@ const handle = async (event, context) => {
         currentUser
     } = requestContext;
 
-    console.log('employee');
     let client = null;
     if (context) {
         client = context.client;
