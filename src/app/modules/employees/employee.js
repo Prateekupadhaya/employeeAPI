@@ -67,6 +67,7 @@ const handle = async (event, context) => {
 
     let responseCode, response;
     try {
+        console.log('prateek');
         responseCode = 200;
         let key = `${resourcePath.toLowerCase()}-${httpMethod.toLowerCase()}`;
         if (!(key in requestHandler)) {
